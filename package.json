@@ -2,6 +2,7 @@
   "name": "initiative-tracker-dashboard",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME",
   "description": "A visual dashboard to track initiatives through predefined stages with drag-and-drop and localStorage.",
   "main": "main.js",
   "scripts": {
@@ -9,7 +10,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron": "npm run build && electron ."
+    "electron": "npm run build && electron .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -35,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "electron": "^36.2.0"
+    "electron": "^36.2.0",
+    "gh-pages": "^6.3.0"
   }
 }
