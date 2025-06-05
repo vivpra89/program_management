@@ -2,7 +2,7 @@
   "name": "initiative-tracker-dashboard",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME",
+  "homepage": "https://vivpra89.github.io/program_management",
   "description": "A visual dashboard to track initiatives through predefined stages with drag-and-drop and localStorage.",
   "main": "main.js",
   "scripts": {
