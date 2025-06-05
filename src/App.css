@@ -1,0 +1,10 @@
+body {
+  background: #f0f2f5;
+}
+
+.MuiContainer-root {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* Add any custom styles as needed */ 
